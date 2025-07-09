@@ -1,0 +1,46 @@
+/* headers selector*/
+.header{
+    color: red;
+    padding:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* internal header selector*/
+#internal{
+    padding-bottom: 30px;
+    background-color: chocolate;
+}
+
+/* relative header selector*/
+#relative{
+    padding-bottom: 30px;
+    background-color:lightcyan;
+}
+
+/* external header selector*/
+#external{
+    padding-bottom: 30px;
+    background-color:darksalmon;
+}
+
+/* email header selector*/
+#email{
+    padding-bottom: 30px;
+    background-color:lightgray;
+}
+
+/*  paragraph selector */
+.p{
+    height: 50vh;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+}
+
+/* list selector*/
+#list{
+    list-style-type: disc;
+    color:azure;
+}
+

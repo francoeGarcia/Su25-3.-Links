@@ -1,0 +1,48 @@
+<!-- document type tag -->
+<!DOCTYPE html>
+
+<!-- html tag with english language specified-->
+<html lang="en">
+
+    <head>
+        <!-- Assignment 3.Links-->
+        <title>3.Links</title>
+        <meta charset="utf-8">
+        <!-- external cascading used to set list atributes and indent them -->
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+    </head>
+
+    <body>
+        <!-- HEADER main-->
+        <h1>Working with Links</h1>
+         
+        <!-- HEADER internal link-->
+        <h2 class="headers" id="internal">Internal Link</h2>
+        <!-- list of file's sections; in-line cascading used to change list marker-->
+        <ul id="list">
+            <!-- relative links to different file headers + link to prev project-->
+            <li><a href="https://francoegarcia.github.io/Su25-2.Basic-HTML/" target="_blank"title="Go to my previous project">My previous project</a></li>
+            <li><a href="#internal" title="Go to Internal Links">Internal</a></li>
+            <li><a href="#relative" title="Go to Relative Links">Relative</a></li>
+            <li><a href="#external" title="Go to External Links">External</a></li>
+            <li><a href="#email" title="Go to send an email">Send an email</a></li>
+        </ul>
+
+        <!-- HEADER relative link-->
+        <h2 class="headers" id="relative">Relative Link</h2>       
+        <!-- relative link example to another html file-->
+        <p class="p"> This is the main page, click <a href="index2.html" target="_blank">here</a> to go my other html file.</p>
+
+        <!-- HEADER external link-->
+        <h2 class="headers" id="external">External Link</h2>       
+        <!-- external link example to a youtube video-->
+        <p class="p">This is a link to a <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">song</a>.</p>
+       
+        <!-- HEADER email link-->
+        <h2 class="headers" id="email">Email Address Link</h2>       
+        <!-- link to send an email-->
+        <p class="p">Send an <a href="mailto:email@example.com">email</a>.</p>
+    
+        </body>
+</html>
